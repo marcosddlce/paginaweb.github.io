@@ -31,9 +31,9 @@ header{
     height: 600px;
     background: #314755;  
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(199, 71%, 50%, 0.61), #314755), url(../img/portada.jpg);  
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.61), #000000), url(../img/portada.jpg);  
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(199, 71%, 50%, 0.61), #314755), url(../img/portada.jpg); 
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.61), #000000), url(../img/portada.jpg); 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -106,7 +106,7 @@ main .sobre-nosotros{
 }
 
 .contenido-textos h3 span{
-    background-color: #642a73;
+    background-color: #000000;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -158,7 +158,7 @@ main .sobre-nosotros{
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: hsla(244, 91%, 27%, 0.7);
+    background: hsla(0, 0%, 0%, 0.7);
     transition: transform .5s;
     display: flex;
     justify-content: center;
@@ -186,14 +186,14 @@ main .sobre-nosotros{
 }
 
 .cards .card{
-    background: #642a73;
+    background: #222222;
     display: flex;
     width: 46%;
     height: 200px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .6);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
 }
 
 .cards .card img{
@@ -219,7 +219,7 @@ main .sobre-nosotros{
 /* Our team */
 
 .about-services{
-    background: #f2f2f2;
+    background: #fff;
     padding-bottom: 30px;
 }
 
@@ -271,7 +271,7 @@ footer{
 
 .content-foo h4{
     color: #fff;
-    border-bottom: 3px solid #af20d3;
+    border-bottom: 3px solid #1f1f1f;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
